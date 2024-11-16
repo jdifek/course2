@@ -1,0 +1,477 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: "Roboto", sans-serif; /* Используем шрифт Roboto */
+}
+
+.first-bg {
+  background-image: url("./img/Group\ 2\ \(1\).png"); /* Указываем путь к изображению */
+  background-size: cover; /* Изображение будет масштабироваться, чтобы покрыть весь элемент */
+  background-position: center; /* Центрируем изображение по всему элементу */
+  background-repeat: no-repeat; /* Изображение не будет повторяться */
+  height: 100vh;
+  width: 100vw;
+  padding-top: 82px;
+  padding-inline: 44px;
+
+  &__main-text {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  &__second-text {
+    display: flex;
+    justify-content: center;
+
+    color: #fff;
+    margin-bottom: 70px;
+
+    font-weight: 400;
+    font-size: 22px;
+
+    text-align: center;
+  }
+  &__third-text {
+    width: 240px;
+    color: #fff;
+    margin-bottom: 30px;
+
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  &__button {
+    position: absolute;
+    width: 250px;
+    bottom: 50px;
+    cursor: pointer; /* Курсор "рука" при наведении */
+
+    &-text {
+      position: absolute;
+      top: 50%; /* Центрируем текст по вертикали */
+      left: 50%; /* Центрируем текст по горизонтали */
+      transform: translate(-130%, -50%);
+    }
+  }
+}
+
+.second-bg {
+  background-image: url("./img/1111\ \(1\).png");
+  background-size: cover; /* Изображение будет масштабироваться, чтобы покрыть весь элемент */
+  background-position: center; /* Центрируем изображение по всему элементу */
+  background-repeat: no-repeat;
+  padding-inline: 44px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #fff;
+
+  & img {
+    width: 70px;
+  }
+
+  &-h3 {
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  &__flex {
+    display: flex;
+    column-gap: 32px;
+    row-gap: 87px;
+    margin-bottom: 25px;
+
+    & img {
+      width: 20px;
+    }
+  }
+
+  &__ask {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  &__second-text {
+    display: flex;
+    justify-content: center;
+
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  &__third-text-one {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    font-weight: 300;
+    font-size: 20px;
+  }
+  &__third-text-two {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    font-weight: 300;
+    font-size: 20px;
+  }
+}
+
+.ellipse {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%; /* Скругление до круга */
+  background-color: #fb28ff; /* Цвет заливки */
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.third-bg {
+  background-color: #000000;
+  background-size: cover; /* Изображение будет масштабироваться, чтобы покрыть весь элемент */
+  background-position: center; /* Центрируем изображение по всему элементу */
+  background-repeat: no-repeat;
+
+  color: #fff;
+
+  padding-inline: 20px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+
+  & img {
+    width: 70px;
+    z-index: 1;
+    position: absolute;
+
+    top: 50%; /* Центрируем по вертикали */
+    left: 50%; /* Центрируем по горизонтали */
+    transform: translate(-50%, -100%);
+  }
+
+  &__main {
+    position: relative;
+  }
+
+  &__main-text-one {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    z-index: 3;
+
+    margin-bottom: 50px;
+
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  &__main-text-two {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    z-index: 3;
+
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  &-flex {
+    display: flex;
+    justify-content: center;
+
+    font-weight: 300;
+    font-size: 10px;
+
+    &-in {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      & h2 {
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 15px;
+      }
+
+      & h3 {
+        font-weight: 300;
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+.fourth-bg {
+  background-image: url("./img/1111\ \(3\).png");
+  background-size: cover; /* Изображение будет масштабироваться, чтобы покрыть весь элемент */
+  background-position: center; /* Центрируем изображение по всему элементу */
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 82px;
+  padding-inline: 44px;
+  color: #fff;
+  padding-bottom: 10px;
+
+  & h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__lesson {
+    border: 2px solid #e5bd66;
+    border-radius: 20px;
+    width: 100%;
+    height: 230px;
+    position: relative;
+    margin-bottom: 50px;
+    padding-inline: 20px;
+    padding-top: 30px;
+
+    @media screen and (min-width: 450px) {
+      padding-top: 50px;
+    }
+
+    @media screen and (min-width: 670px) {
+      padding-top: 80px;
+    }
+
+    & h2 {
+      font-weight: 500;
+      font-size: 20px;
+    }
+
+    & p {
+      font-weight: 300;
+      font-size: 15px;
+    }
+
+    &-block {
+      position: absolute;
+      top: -15px;
+
+      &-abs {
+        position: absolute;
+      }
+    }
+
+    &-num {
+      width: 60%;
+    }
+
+    &-money {
+      width: 36%;
+      position: absolute;
+
+      top: calc(0px - 20%);
+      right: calc(0px - 10%);
+
+      @media screen and (min-width: 550px) {
+        padding-top: 50px;
+        width: 30%;
+
+        top: calc(0px - 45%);
+        right: calc(0px - 10%);
+      }
+
+      @media screen and (min-width: 670px) {
+        padding-top: 50px;
+        width: 132px;
+        height: 132px;
+
+        top: calc(0px - 45%);
+        right: calc(0px - 10%);
+      }
+    }
+
+    &-text {
+      position: absolute;
+
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -100%);
+    }
+  }
+}
+
+.fifth-bg {
+  background-image: url("./img/1111\ \(4\).png");
+  background-size: cover; /* Изображение будет масштабироваться, чтобы покрыть весь элемент */
+  background-position: center; /* Центрируем изображение по всему элементу */
+  background-repeat: no-repeat;
+  color: #fff;
+  padding-inline: 44px;
+  padding-top: 25px;
+  text-align: center;
+
+  & p {
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  &-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    column-gap: 100px;
+
+    @media screen and (max-width: 370px) {
+      column-gap: 30px;
+    }
+
+    & h2 {
+      font-weight: 300;
+      font-size: 27px;
+    }
+
+    & h3 {
+      font-weight: 500;
+      font-size: 27px;
+    }
+  }
+
+  &__button {
+    width: 90%;
+  }
+}
+
+.seventh-bg {
+  background-image: url("./img/1111\ \(2\).png");
+  background-size: cover; /* Изображение будет масштабироваться, чтобы покрыть весь элемент */
+  background-position: center; /* Центрируем изображение по всему элементу */
+  background-repeat: no-repeat;
+
+  color: #fff;
+
+  text-align: center;
+  padding-top: 20px;
+  padding-inline: 20px;
+  padding-bottom: 20px;
+
+  & h1 {
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  &__block {
+    margin-bottom: 20px;
+
+    & img {
+      width: 50px;
+      margin: 7px;
+    }
+
+    & h2 {
+      margin: 7px;
+    }
+  }
+}
+
+.eighth-bg {
+  background-image: url("./img/1111\ \(4\).png");
+  background-size: cover; /* Изображение будет масштабироваться, чтобы покрыть весь элемент */
+  background-position: center; /* Центрируем изображение по всему элементу */
+  background-repeat: no-repeat;
+  color: #fff;
+  padding-inline: 44px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+
+  &__block {
+    border: 5px solid #e5bd66;
+    width: 100%;
+    padding-top: 15px;
+    padding-inline: 15px;
+    padding-bottom: 15px;
+
+    &-block {
+      & img {
+        width: 70%;
+        margin-bottom: 10px;
+      }
+      & h2 {
+        font-weight: 500;
+        font-size: 25px;
+      }
+
+      & p {
+        font-weight: 300;
+        font-size: 15px;
+        margin-bottom: 20px;
+
+      }
+    }
+  }
+}
+
+.qwerty {
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.ninth-bg {
+  background-color: black;
+  background-size: cover; /* Изображение будет масштабироваться, чтобы покрыть весь элемент */
+  background-position: center; /* Центрируем изображение по всему элементу */
+  background-repeat: no-repeat;
+  color: #fff;
+  padding-inline: 44px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+
+  & h1 {
+    margin-bottom: 30px;
+  }
+
+  & p {
+    margin-bottom: 20px;
+  }
+
+  & h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  &-mask {
+    width: 20%;
+    margin-bottom: 10px;
+
+  }
+
+  &-sv {
+    font-weight: 400;
+    font-size: 40px;
+    opacity: 50%;
+    letter-spacing: 5px;
+  }
+}
