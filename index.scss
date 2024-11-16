@@ -29,14 +29,10 @@ body {
     display: flex;
     justify-content: center;
     color: #fff;
-
     margin-bottom: 30px;
     font-weight: 300;
     font-size: 14px;
     font-weight: bold;
-    background: linear-gradient(45deg, #ffd700, #ffcc00);
-    -webkit-background-clip: text;
-    color: transparent;
 
     @media screen and (min-width: 640px) {
       font-size: 25px;
@@ -45,16 +41,16 @@ body {
   &__second-text {
     display: flex;
     justify-content: center;
-
     color: #fff;
     margin-bottom: 70px;
-
     font-weight: 600;
     font-size: 35px;
-
     text-align: center;
-
-  }
+    background: linear-gradient(90deg, #ff8d5c 0%, #e3f385 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
   &__third-text {
     width: 240px;
     color: #fff;
