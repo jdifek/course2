@@ -33,11 +33,16 @@ body {
   color: #fff;
   margin-bottom: 30px;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   background: linear-gradient(45deg, #ffd700, #ffcc00);
   -webkit-background-clip: text;
   color: transparent;
+}
+@media screen and (min-width: 640px) {
+  .first-bg__main-text {
+    font-size: 25px;
+  }
 }
 .first-bg__second-text {
   display: flex;
@@ -48,6 +53,11 @@ body {
   font-size: 22px;
   text-align: center;
 }
+@media screen and (min-width: 640px) {
+  .first-bg__second-text {
+    font-size: 30px;
+  }
+}
 .first-bg__third-text {
   width: 240px;
   color: #fff;
@@ -56,11 +66,22 @@ body {
   font-weight: 400;
   font-size: 20px;
 }
+@media screen and (min-width: 640px) {
+  .first-bg__third-text {
+    width: 400px;
+    font-size: 25px;
+  }
+}
 .first-bg__button {
   position: absolute;
   width: 250px;
   bottom: 50px;
   cursor: pointer; /* Курсор "рука" при наведении */
+}
+@media screen and (min-width: 640px) {
+  .first-bg__button {
+    width: 400px;
+  }
 }
 .first-bg__button-text {
   position: absolute;
@@ -190,9 +211,19 @@ body {
   font-weight: 400;
   font-size: 15px;
 }
+@media screen and (min-width: 640px) {
+  .third-bg-flex-in h2 {
+    font-size: 25px;
+  }
+}
 .third-bg-flex-in h3 {
   font-weight: 300;
   font-size: 10px;
+}
+@media screen and (min-width: 640px) {
+  .third-bg-flex-in h3 {
+    font-size: 15px;
+  }
 }
 
 .fourth-bg {
@@ -260,18 +291,19 @@ body {
 @media screen and (min-width: 550px) {
   .fourth-bg__lesson-money {
     padding-top: 50px;
-    width: 30%;
+    width: 25%;
     top: calc(0px - 45%);
-    right: calc(0px - 10%);
+    right: calc(0px - 5%);
   }
 }
-@media screen and (min-width: 670px) {
+@media screen and (min-width: 890px) {
   .fourth-bg__lesson-money {
-    padding-top: 50px;
-    width: 132px;
-    height: 132px;
-    top: calc(0px - 45%);
-    right: calc(0px - 10%);
+    width: 20%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .fourth-bg__lesson-money {
+    right: calc(0px - 3%);
   }
 }
 .fourth-bg__lesson-text {
@@ -317,6 +349,12 @@ body {
 }
 .fifth-bg__button {
   width: 90%;
+}
+@media screen and (min-width: 640px) {
+  .fifth-bg__button {
+    margin-top: 30px;
+    width: 50%;
+  }
 }
 
 .seventh-bg {
@@ -381,7 +419,15 @@ body {
 
 .qwerty {
   width: 90%;
+  display: block;
   margin-bottom: 50px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 640px) {
+  .qwerty {
+    margin-top: 30px;
+    width: 50%;
+  }
 }
 
 .ninth-bg {
