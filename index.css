@@ -231,7 +231,6 @@ body {
   background-size: cover; /* Изображение будет масштабироваться, чтобы покрыть весь элемент */
   background-position: center; /* Центрируем изображение по всему элементу */
   background-repeat: no-repeat;
-  height: 100vh;
   width: 100vw;
   padding-top: 82px;
   padding-inline: 44px;
@@ -271,6 +270,11 @@ body {
 .fourth-bg__lesson p {
   font-weight: 300;
   font-size: 15px;
+}
+@media screen and (min-width: 640px) {
+  .fourth-bg__lesson p {
+    font-size: 20px;
+  }
 }
 .fourth-bg__lesson-block {
   position: absolute;
@@ -415,6 +419,12 @@ body {
   font-weight: 300;
   font-size: 15px;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 640px) {
+  .eighth-bg__block-block p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
 }
 
 .qwerty {
