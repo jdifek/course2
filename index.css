@@ -50,9 +50,9 @@ body {
   font-size: 35px;
   text-align: center;
   background: linear-gradient(90deg, #ff8d5c 0%, #e3f385 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .first-bg__third-text {
   width: 240px;
