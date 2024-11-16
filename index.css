@@ -35,9 +35,6 @@ body {
   font-weight: 300;
   font-size: 14px;
   font-weight: bold;
-  background: linear-gradient(45deg, #ffd700, #ffcc00);
-  -webkit-background-clip: text;
-  color: transparent;
 }
 @media screen and (min-width: 640px) {
   .first-bg__main-text {
@@ -49,14 +46,13 @@ body {
   justify-content: center;
   color: #fff;
   margin-bottom: 70px;
-  font-weight: 400;
-  font-size: 22px;
+  font-weight: 600;
+  font-size: 35px;
   text-align: center;
-}
-@media screen and (min-width: 640px) {
-  .first-bg__second-text {
-    font-size: 30px;
-  }
+  background: linear-gradient(90deg, #ff8d5c 0%, #e3f385 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .first-bg__third-text {
   width: 240px;
@@ -81,6 +77,11 @@ body {
 @media screen and (min-width: 640px) {
   .first-bg__button {
     width: 400px;
+  }
+}
+@media screen and (max-height: 620px) {
+  .first-bg__button {
+    right: 0;
   }
 }
 .first-bg__button-text {
@@ -232,7 +233,6 @@ body {
   background-position: center; /* Центрируем изображение по всему элементу */
   background-repeat: no-repeat;
   width: 100vw;
-  padding-top: 82px;
   padding-inline: 44px;
   color: #fff;
   padding-bottom: 10px;
