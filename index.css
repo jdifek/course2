@@ -34,6 +34,10 @@ body {
   margin-bottom: 30px;
   font-weight: 300;
   font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #ffd700, #ffcc00);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 .first-bg__second-text {
   display: flex;
@@ -340,6 +344,7 @@ body {
 }
 .seventh-bg__block h2 {
   margin: 7px;
+  color: #fb28ff;
 }
 
 .eighth-bg {
