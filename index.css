@@ -34,7 +34,6 @@ body {
   margin-bottom: 30px;
   font-weight: 300;
   font-size: 14px;
-  font-weight: bold;
 }
 @media screen and (min-width: 640px) {
   .first-bg__main-text {
@@ -47,7 +46,7 @@ body {
   color: #fff;
   margin-bottom: 70px;
   font-weight: 600;
-  font-size: 23px;
+  font-size: 27px;
   text-align: center;
   background: linear-gradient(90deg, #ff8d5c 0%, #e3f385 100%);
   background-clip: text;
@@ -59,8 +58,8 @@ body {
   color: #fff;
   margin-bottom: 30px;
   margin-bottom: 30px;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 17px;
 }
 @media screen and (min-width: 640px) {
   .first-bg__third-text {
@@ -252,10 +251,10 @@ body {
 }
 .fourth-bg h1 {
   text-align: center;
-  font-weight: 500;
-  font-size: 25px;
   margin-bottom: 50px;
   opacity: 70%;
+  font-weight: 600;
+  font-size: 35px;
 }
 .fourth-bg__lesson {
   border: 2px solid #e5bd66;
@@ -266,7 +265,7 @@ body {
   padding-inline: 20px;
   padding-bottom: 20px;
   padding-top: 30px;
-  background-color: rgba(0, 0, 0, 0.7529411765); /* Фиолетовый цвет */
+  background-color: rgba(0, 0, 0, 0.568627451); /* Фиолетовый цвет */
 }
 @media screen and (min-width: 450px) {
   .fourth-bg__lesson {
@@ -276,6 +275,7 @@ body {
 @media screen and (min-width: 640px) {
   .fourth-bg__lesson {
     padding-top: 80px;
+    padding-left: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -352,12 +352,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  column-gap: 100px;
-}
-@media screen and (max-width: 370px) {
-  .fifth-bg-flex {
-    column-gap: 30px;
-  }
+  column-gap: 25px;
 }
 .fifth-bg-flex h2 {
   font-weight: 300;
@@ -403,6 +398,7 @@ body {
 .seventh-bg__block h2 {
   margin: 7px;
   color: #fb28ff;
+  font-size: 20px;
 }
 
 .eighth-bg {
@@ -417,8 +413,9 @@ body {
   text-align: center;
 }
 .eighth-bg h1 {
-  font-weight: 500;
-  font-size: 25px;
+  opacity: 70%;
+  font-weight: 600;
+  font-size: 35px;
   margin-bottom: 15px;
 }
 .eighth-bg__block {
@@ -474,6 +471,9 @@ body {
 }
 .ninth-bg h1 {
   margin-bottom: 30px;
+  opacity: 70%;
+  font-weight: 600;
+  font-size: 35px;
 }
 .ninth-bg-p {
   text-align: left;
@@ -489,7 +489,7 @@ body {
 }
 .ninth-bg p {
   margin-bottom: 20px;
-  font-size: 15px;
+  font-size: 30px;
 }
 .ninth-bg h2 {
   margin-top: 40px;
@@ -519,6 +519,13 @@ body {
   color: white; /* Белый цвет текста для контраста */
   border-radius: 10px;
   opacity: 70%;
+}
+
+@media screen and (min-width: 640px) {
+  .df {
+    margin: 0 auto;
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
