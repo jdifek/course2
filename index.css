@@ -47,7 +47,7 @@ body {
   color: #fff;
   margin-bottom: 70px;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 23px;
   text-align: center;
   background: linear-gradient(90deg, #ff8d5c 0%, #e3f385 100%);
   background-clip: text;
@@ -82,6 +82,11 @@ body {
 @media screen and (max-height: 620px) {
   .first-bg__button {
     right: 0;
+  }
+}
+@media screen and (max-height: 360px) {
+  .first-bg__button {
+    width: 300px;
   }
 }
 .first-bg__button-text {
@@ -184,6 +189,7 @@ body {
   margin-bottom: 50px;
   font-weight: 400;
   font-size: 30px;
+  opacity: 70%;
 }
 .third-bg__main-text-two {
   position: relative;
@@ -194,6 +200,7 @@ body {
   font-weight: 400;
   font-size: 30px;
   margin-bottom: 30px;
+  opacity: 70%;
 }
 .third-bg-flex {
   display: flex;
@@ -227,8 +234,14 @@ body {
   }
 }
 
+@media screen and (min-width: 640px) {
+  .line {
+    display: none;
+  }
+}
+
 .fourth-bg {
-  background-image: url("./img/1111 (3).png");
+  background-image: url("./img/7.png");
   background-size: cover; /* Изображение будет масштабироваться, чтобы покрыть весь элемент */
   background-position: center; /* Центрируем изображение по всему элементу */
   background-repeat: no-repeat;
@@ -240,27 +253,33 @@ body {
 .fourth-bg h1 {
   text-align: center;
   font-weight: 500;
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 25px;
+  margin-bottom: 50px;
+  opacity: 70%;
 }
 .fourth-bg__lesson {
   border: 2px solid #e5bd66;
   border-radius: 20px;
   width: 100%;
-  height: 230px;
   position: relative;
   margin-bottom: 50px;
   padding-inline: 20px;
+  padding-bottom: 20px;
   padding-top: 30px;
+  background-color: rgba(0, 0, 0, 0.7529411765); /* Фиолетовый цвет */
 }
 @media screen and (min-width: 450px) {
   .fourth-bg__lesson {
     padding-top: 50px;
   }
 }
-@media screen and (min-width: 670px) {
+@media screen and (min-width: 640px) {
   .fourth-bg__lesson {
     padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 17%;
   }
 }
 .fourth-bg__lesson h2 {
@@ -269,11 +288,12 @@ body {
 }
 .fourth-bg__lesson p {
   font-weight: 300;
-  font-size: 15px;
+  font-size: 12px;
 }
 @media screen and (min-width: 640px) {
   .fourth-bg__lesson p {
     font-size: 20px;
+    width: 50%;
   }
 }
 .fourth-bg__lesson-block {
@@ -287,27 +307,23 @@ body {
   width: 60%;
 }
 .fourth-bg__lesson-money {
-  width: 36%;
+  width: 70px;
   position: absolute;
   top: calc(0px - 20%);
   right: calc(0px - 10%);
 }
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 640px) {
   .fourth-bg__lesson-money {
     padding-top: 50px;
-    width: 25%;
-    top: calc(0px - 45%);
+    width: 100px;
+    top: calc(0px - 37%);
     right: calc(0px - 5%);
   }
 }
-@media screen and (min-width: 890px) {
+@media screen and (min-width: 980px) {
   .fourth-bg__lesson-money {
-    width: 20%;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .fourth-bg__lesson-money {
-    right: calc(0px - 3%);
+    top: calc(0px - 37%);
+    right: calc(0px - 1%);
   }
 }
 .fourth-bg__lesson-text {
@@ -400,6 +416,11 @@ body {
   padding-bottom: 25px;
   text-align: center;
 }
+.eighth-bg h1 {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
 .eighth-bg__block {
   border: 5px solid #e5bd66;
   width: 100%;
@@ -436,7 +457,7 @@ body {
 @media screen and (min-width: 640px) {
   .qwerty {
     margin-top: 30px;
-    width: 50%;
+    width: 30%;
   }
 }
 
@@ -454,22 +475,50 @@ body {
 .ninth-bg h1 {
   margin-bottom: 30px;
 }
+.ninth-bg-p {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 15px;
+  display: block;
+  margin: 0 auto;
+}
+@media screen and (min-width: 640px) {
+  .ninth-bg-p {
+    font-size: 30px;
+  }
+}
 .ninth-bg p {
   margin-bottom: 20px;
+  font-size: 15px;
 }
 .ninth-bg h2 {
   margin-top: 40px;
   margin-bottom: 20px;
+  color: #fb28ff;
 }
 .ninth-bg-mask {
   width: 20%;
   margin-bottom: 10px;
+}
+@media screen and (min-width: 640px) {
+  .ninth-bg-mask {
+    margin-top: 30px;
+    width: 10%;
+  }
 }
 .ninth-bg-sv {
   font-weight: 400;
   font-size: 40px;
   opacity: 50%;
   letter-spacing: 5px;
+}
+
+.purple-background {
+  background-color: #8c2f8c; /* Фиолетовый цвет */
+  padding: 20px; /* Добавление отступов для визуального комфорта */
+  color: white; /* Белый цвет текста для контраста */
+  border-radius: 10px;
+  opacity: 70%;
 }
 
 /*# sourceMappingURL=index.css.map */
