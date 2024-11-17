@@ -32,7 +32,6 @@ body {
     margin-bottom: 30px;
     font-weight: 300;
     font-size: 14px;
-    font-weight: bold;
 
     @media screen and (min-width: 640px) {
       font-size: 25px;
@@ -44,7 +43,7 @@ body {
     color: #fff;
     margin-bottom: 70px;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 27px;
     text-align: center;
     background: linear-gradient(90deg, #ff8d5c 0%, #e3f385 100%);
     background-clip: text;
@@ -57,8 +56,8 @@ body {
     margin-bottom: 30px;
 
     margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 17px;
 
     @media screen and (min-width: 640px) {
       width: 400px;
@@ -275,10 +274,11 @@ body {
 
   & h1 {
     text-align: center;
-    font-weight: 500;
-    font-size: 25px;
     margin-bottom: 50px;
     opacity: 70%;
+
+    font-weight: 600;
+    font-size: 35px;
   }
 
   &__lesson {
@@ -290,7 +290,7 @@ body {
     padding-inline: 20px;
     padding-bottom: 20px;
     padding-top: 30px;
-    background-color: #000000c0; /* Фиолетовый цвет */
+    background-color: #00000091; /* Фиолетовый цвет */
 
     @media screen and (min-width: 450px) {
       padding-top: 50px;
@@ -298,6 +298,7 @@ body {
 
     @media screen and (min-width: 640px) {
       padding-top: 80px;
+      padding-left: 10%;
 
       display: flex;
       align-items: center;
@@ -342,17 +343,15 @@ body {
 
       @media screen and (min-width: 640px) {
         padding-top: 50px;
-      width: 100px;
+        width: 100px;
 
         top: calc(0px - 37%);
         right: calc(0px - 5%);
       }
       @media screen and (min-width: 980px) {
-
         top: calc(0px - 37%);
         right: calc(0px - 1%);
       }
-
     }
 
     &-text {
@@ -385,11 +384,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    column-gap: 100px;
-
-    @media screen and (max-width: 370px) {
-      column-gap: 30px;
-    }
+    column-gap: 25px;
 
     & h2 {
       font-weight: 300;
@@ -442,6 +437,7 @@ body {
     & h2 {
       margin: 7px;
       color: #fb28ff;
+      font-size: 20px;
     }
   }
 }
@@ -458,8 +454,10 @@ body {
   text-align: center;
 
   & h1 {
-    font-weight: 500;
-    font-size: 25px;
+    opacity: 70%;
+
+    font-weight: 600;
+    font-size: 35px;
     margin-bottom: 15px;
   }
 
@@ -503,7 +501,6 @@ body {
   @media screen and (min-width: 640px) {
     margin-top: 30px;
     width: 30%;
-
   }
 }
 
@@ -520,6 +517,11 @@ body {
 
   & h1 {
     margin-bottom: 30px;
+
+    opacity: 70%;
+
+    font-weight: 600;
+    font-size: 35px;
   }
 
   &-p {
@@ -535,7 +537,7 @@ body {
   }
   & p {
     margin-bottom: 20px;
-    font-size: 15px;
+    font-size: 30px;
   }
 
   & h2 {
@@ -550,7 +552,6 @@ body {
     @media screen and (min-width: 640px) {
       margin-top: 30px;
       width: 10%;
-  
     }
   }
 
@@ -568,4 +569,11 @@ body {
   color: white; /* Белый цвет текста для контраста */
   border-radius: 10px;
   opacity: 70%;
+}
+
+.df {
+  @media screen and (min-width: 640px) {
+    margin: 0 auto;
+    width: 50%;
+  }
 }
